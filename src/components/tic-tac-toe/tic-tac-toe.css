@@ -1,0 +1,48 @@
+.background {
+  position: absolute;
+  background-color: #f6f6f6;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.retry-button {
+  width: 100px;
+  height: 40px;
+}
+
+.cell {
+  font-size: 30px;
+}

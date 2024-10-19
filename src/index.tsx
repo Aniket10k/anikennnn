@@ -12,11 +12,11 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/anikennnn",
     element: (<App />),
   },
   {
-    path: "/tic-tac-toe",
+    path: "/anikennnn/tic-tac-toe",
     element: <TicTacToe />
   },
 ]);

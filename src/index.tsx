@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import {createBrowserRouter, RouterProvider } from "react-router-dom";
+import {createHashRouter, RouterProvider } from "react-router-dom";
 import App from './components/App';
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import reportWebVitals from './reportWebVitals';
@@ -10,7 +10,7 @@ import '@fontsource/roboto/700.css';
 import './index.css';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/anikennnn",
     element: (<App />),

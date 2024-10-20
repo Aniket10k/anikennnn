@@ -72,7 +72,7 @@ function TicTacToe() {
     if (winner === 1) {
       setDisableGame(true);
       setWinner(1);
-    } else if (winner == -1) {
+    } else if (winner === -1) {
       setDisableGame(true);
       setWinner(-1);
     } else {

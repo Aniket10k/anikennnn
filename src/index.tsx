@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import {createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import App from './components/App';
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import reportWebVitals from './reportWebVitals';
@@ -12,11 +12,11 @@ import './index.css';
 
 const router = createHashRouter([
   {
-    path: "/anikennnn",
+    path: "/",
     element: (<App />),
   },
   {
-    path: "/anikennnn/tic-tac-toe",
+    path: "/tic-tac-toe",
     element: <TicTacToe />
   },
 ]);

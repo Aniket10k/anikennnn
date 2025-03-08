@@ -217,7 +217,7 @@ function TicTacToe() {
           color: "white",
         }}
       >
-        All rights reserved! Created with love and passion!
+        All rights reserved! Created with love and passion! Thank you!!
       </div>
     </div>
   );
